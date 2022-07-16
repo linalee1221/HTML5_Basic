@@ -1,0 +1,4 @@
+body {
+    background-image: url('../images/york-minster.jpg'), url('../images/waterlily.jpg');
+    background-size: 50%;
+}

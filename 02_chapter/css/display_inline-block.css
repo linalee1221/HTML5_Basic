@@ -1,0 +1,16 @@
+#firstSentence {
+    background-color: yellow;
+    display: inline-block;
+    height: 45px;
+}
+
+#secondSentence {
+    background-color: skyblue;
+    display: inline;
+    height: 45px;
+}
+
+#thirdSentence {
+    background-color: lightgreen;
+    display: inline;
+}

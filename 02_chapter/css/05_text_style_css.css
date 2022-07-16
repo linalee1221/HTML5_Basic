@@ -1,0 +1,15 @@
+h2 {
+    color: blue;
+    text-shadow: 2px 2px 10px gray;
+}
+p {
+    color: #444444;
+    font-size: 18px;
+    font-family: '바탕';
+    line-height: 150%;
+}
+span {
+    font-weight: bold;
+    color: #0e9bdc;
+    text-decoration: underline;
+}

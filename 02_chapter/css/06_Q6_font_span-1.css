@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    font-size: 150%;
+}
+
+#p1 {
+    color: blue;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#p2 {
+    color: blue;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.li1 {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: circle;
+}
+
+p {
+    font-size: 90%; 
+    line-height: 150%;
+}

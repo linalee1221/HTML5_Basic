@@ -1,0 +1,32 @@
+h1 { text-align: center;}
+
+.email {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.area {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+/* * {
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 11px;
+} */
+
+html {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    width: 45%;
+    border: 1px solid black;
+}

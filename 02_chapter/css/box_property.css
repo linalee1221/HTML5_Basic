@@ -1,0 +1,7 @@
+h1 { margin: 1.6em 20px; 
+    border-color: black;
+    border-style: double;}
+
+h2 { margin: 10px 3% -1em;
+    border-color: aqua;
+    border-style: groove; }

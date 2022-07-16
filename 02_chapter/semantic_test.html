@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>예제</title>
+    <link rel="stylesheet" href="css/semantic_test.css"/>
+</head>
+
+<body>
+    <!-- 전체를 감싸는 태그 -->
+    <div id="page-wrapper">
+
+        <!-- 헤더(머리말) -->
+        <header id="main-header">
+            <h1>글 작성하기</h1>
+        </header>
+
+        <!-- 네비게이션(메뉴) -->
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="#">메뉴 - 1</a></li>
+                <li><a href="#">메뉴 - 2</a></li>
+                <li><a href="#">메뉴 - 3</a></li>
+            </ul>
+        </nav>
+
+        <!-- 본문 -->
+        <div id="content">
+            <!-- 본문 좌측 영역 -->
+            <section id="main-section">
+                <article>
+                    <table>
+                        <!-- 작성자 칸 -->
+                        <tr>
+                        <td><label for="username">작성자</label></td>
+                        <td><input id="username" type="text" name="username"></label></td>
+                        </tr>
+            
+                        <!-- 아이디 칸 -->
+                        <tr>
+                        <td><label for="id">아이디</label></td>
+                        <td><input id="id" type="text" name="id"></label></td>
+                        </tr>
+            
+                        <!-- 이메일 칸 -->
+                        <tr>
+                        <td><label for="email">이메일</label></td>
+                        <td><input id="email" type="text" name="email">
+                        <label for="at">@</label>
+                        <input id="domain" type="text" name="domain">
+                        </td>
+                        </tr>
+                        
+                        <!-- 생년월일 칸 -->
+                        <tr>
+                            <td><label for="birth">생년월일</label></td>
+                            <td><input class="birth" type="text" placeholder="년(4자)">
+                                <select name="month">
+                                <option value="">월</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <input class="day" type="text" placeholder="일">
+                            </td>
+                        </tr>
+            
+                        <!-- 휴대폰 칸 -->
+                        <tr>
+                        <td><label for="number">휴대폰</label></td>
+                        <td><select name="phone">
+                        <option value="">010</option>
+                        </select>
+                        <label for="-">-</label>
+                        <input id="num2" type="text" name="num2">
+                        <label for="-2">-</label>
+                        <input id="num3" type="text" name="num3">
+                        </td>
+                        </tr>
+                        
+                        <!-- 성별 칸 -->
+                        <tr>
+                        <td>성별</td>
+                        <td>
+                            <input id="man" type="radio" name="gender" value="m" />
+                            <label for="man">남자</label>
+                            <input id="woman" type="radio" name="gender" value="w" />
+                            <label for="woman">여자</label>
+                        </td>
+                        </tr>
+            
+                        <!-- 글제목 칸 -->
+                        <tr>
+                        <td>글제목</td>
+                        <td>
+                            <input id="head" type="text" name="head">
+                        </tr>
+            
+                        <!-- 내용 -->
+                        <tr>
+                            <td>내용</td>
+                            <td><textarea class="area" rows="10" cols="60">
+                            </textarea></td>
+                        </tr>
+            
+                        <!-- 제출 -->
+                        <tr>
+                        <td><label for="space"></label></td>
+                        <td>
+                            <input type="submit" value="제출">
+                        </td>
+                        </tr>
+                    </form>
+                    </nav>
+                </table>
+                </article>
+            </section>
+        </div>
+        <!-- 푸터(꼬리말) -->
+        <footer><i>HTML5 Programming 게시판</i></footer>
+    </div>
+</body>
+</html>

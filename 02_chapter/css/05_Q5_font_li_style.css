@@ -1,0 +1,11 @@
+li {
+    list-style-type: none;
+    font-family: '맑은고딕';
+    font-size: 20px;
+}
+
+h3 {
+    color: blue;
+    font-family: '맑은고딕';
+    font-size: 25px; 
+}

@@ -1,0 +1,6 @@
+li {
+    list-style-image: url('../images/arrow.gif');
+}
+span {
+    font-weight: bold;
+}

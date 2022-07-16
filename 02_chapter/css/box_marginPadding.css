@@ -1,0 +1,10 @@
+div { 
+    width: 100px; 
+    height: 100px;
+    background-color: red;
+
+          /* 너비|스타일|색 */
+    border: 20px solid black;
+    margin: 10px;
+    padding: 30px;
+}

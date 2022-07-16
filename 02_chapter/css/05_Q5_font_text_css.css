@@ -1,0 +1,15 @@
+h2 {
+    color: crimson;
+    text-shadow: 2px 2px 10px gray;
+}
+p {
+    color: #0000b3;
+    font-size: 18px;
+    font-family: '맑은고딕';
+    line-height: 150%;
+}
+span {
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: underline;
+}

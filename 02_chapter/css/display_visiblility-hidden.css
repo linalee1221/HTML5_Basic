@@ -1,0 +1,14 @@
+#firstSentence {
+    background-color: yellow;
+    display: block;
+}
+
+#secondSentence {
+    background-color: skyblue;
+    visibility: hidden;
+}
+
+#thirdSentence {
+    background-color: lightgreen;
+    display: block;
+}

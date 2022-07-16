@@ -1,0 +1,13 @@
+.first { background-color: antiquewhite;
+         border-radius: 20px;}
+.second { background-color: aquamarine;
+         border-radius: 20px;}
+.design { background-color: rgb(217, 255, 0);}
+.start { background-color: rgba(45, 42, 255, 0.555);}
+.end { background-color: rgba(228, 161, 255, 0.801);}
+table { box-shadow: 10px 10px 30px black;}
+.firstlist { background-image: url('../images/balloons.jpg');
+             background-size: contain;
+}
+.secondlist { background-image: url('../images/pixabay_bird.jpg');
+              background-size: cover;}

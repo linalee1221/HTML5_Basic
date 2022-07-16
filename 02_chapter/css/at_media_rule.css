@@ -1,0 +1,11 @@
+@media screen {
+    body {
+        background-color: red;
+    }
+}
+
+@media print {
+    body {
+        background-color: green;
+    }
+}

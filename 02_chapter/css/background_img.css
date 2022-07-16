@@ -1,0 +1,8 @@
+body {
+    background-image: url('../images/business.jpg');
+}
+
+h1 { font-size: 250%; color: rgb(237, 129, 241);}
+
+p { color: rgba(255, 0, 0, 0.5);}
+

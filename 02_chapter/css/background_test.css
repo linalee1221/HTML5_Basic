@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.wrap {
+    background-image: url('../images/saint.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: auto;
+    width: 300px;
+    height: 280px;
+    
+}
+
+.mytitle {
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 40px 0 0 0;
+    border-radius: 10px;
+    
+}
+
+.mybtn {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    padding: auto;
+}

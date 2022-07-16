@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/form_test.css"/>
+</head>
+<body>
+    <form>
+        <fieldset> 
+            <legend><b>입력 양식</b></legend>  
+        <table>
+            <tr>
+            <td><label for="username">이름</label></td>
+            <td><input id="username" type="text" name="username"></label></td>
+        </tr>
+        <tr>
+            <td><label for="email">이메일</label></td>
+            <td><input id="email" type="text" name="email"></label></td>
+        </tr>
+
+        <tr>
+            <td><label for="birth">생년월일</label></td>
+            <td><input class="birth" type="text" placeholder="년(4자)"></td>
+            <td><select name="month">
+                <option value="">월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            </td>
+            <td><input class="day" type="text" placeholder="일"></td>
+        </tr>
+        
+        <tr>
+            <td>성별</td>
+            <td>
+                <input id="man" type="radio" name="gender" value="m" />
+                <label for="man">남자</label>
+                <input id="woman" type="radio" name="gender" value="w" />
+                <label for="woman">여자</label>
+            </td>
+        </tr>
+    </form>
+</table>
+<input type="submit" value="제출" />
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,11 @@
+p {
+    font-size: 14px;
+    line-height: 180%;
+}
+#fly {
+    color: red;
+    font-weight: bold;
+}
+.blue {
+    color: blue;
+}

@@ -1,0 +1,35 @@
+#main-header { background-color: aquamarine;}
+
+#main-navigation { 
+    border-width: thick;
+    border-style: dashed;
+    border-color: bisque;
+    border-radius: 20px;
+}
+
+#content { 
+    border-width: thick;
+    border-style: dashed;
+    border-color: bisque;
+    border-radius: 20px;
+}
+
+.area { background-color: rgba(0, 119, 255, 0.486);
+        border-style: hidden;
+        box-shadow: 5px 5px 5px black;}
+
+#head { background-color: rgba(0, 119, 255, 0.486);
+        border-style: hidden;
+        box-shadow: 5px 5px 5px black;}
+
+#content { background-image: url('../images/doctor.jpg');
+           background-size: cover;}
+
+#username { border-style: hidden;
+            background-color: rgba(137, 43, 226, 0.465);
+            box-shadow: 5px 5px 5px black;
+        }
+
+#id { border-style: hidden;
+      background-color: rgba(137, 43, 226, 0.465);
+      box-shadow: 5px 5px 5px black;}

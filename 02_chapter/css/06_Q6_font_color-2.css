@@ -1,0 +1,22 @@
+.first {
+    color: blueviolet;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.second {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-size: 110%;
+    font-weight: bold;
+}
